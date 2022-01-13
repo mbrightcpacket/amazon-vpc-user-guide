@@ -53,7 +53,7 @@ When you use the middlebox routing wizard, the following tags are associated wit
 
 ## Subnet route table<a name="internet-gateway-subnet-route-table"></a>
 
-The route table for the middlebox subnet \(Subnet C\) contains the following routes:
+The route table for the subnet \(Subnet B\) contains the following routes:
 
 
 | Destination | Target | Purpose | 
@@ -63,7 +63,7 @@ The route table for the middlebox subnet \(Subnet C\) contains the following rou
 | 2001:db8:1234:1a00::/56 | Local | Local route for IPv6 | 
 | ::/0 | eni\-11223344556677889 | Route IPv4 traffic destined for the internet to the middlebox | 
 
-There is a subnet association with subnet C\. 
+There is a subnet association with subnet B\. 
 
 When you use the middlebox routing wizard, the following tags are associated with the route table:
 + A tag with a Key set to "Origin" and a Value set to "Middlebox wizard"\.
